@@ -279,7 +279,7 @@
                   <b>Invoice #007612</b><br>
                   <br>
                   <b>Order ID:</b> 4F3S8J<br>
-                  <b>Payment Due:</b> 2/22/2014<br>
+                  <b>Payment Due:</b> <?php echo date("Y/m/d", strtotime("+10 days"));?><br>
                   <b>Account:</b> 968-34567
                 </div>
                 <!-- /.col -->
@@ -328,7 +328,7 @@
                 </div>
                 <!-- /.col -->
                 <div class="col-6">
-                  <p class="lead">Amount Due 2/22/2014</p>
+                  <p class="lead">Amount Due : <?php echo date("Y/m/d", strtotime("+10 days"));?></p>
 
                   <div class="table-responsive">
                     <table class="table">
